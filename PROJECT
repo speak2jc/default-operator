@@ -1,17 +1,17 @@
 domain: tutorial.kubebuilder.io
 layout:
 - go.kubebuilder.io/v3
-projectName: project2
-repo: tutorial.kubebuilder.io/project
+projectName: default-operator
+repo: github.com/speak2jc/default-operator
 resources:
 - api:
     crdVersion: v1
     namespaced: true
   controller: true
-  domain: tutorial.kubebuilder.io
+  domain: github.com
   group: batch
   kind: CronJob
-  path: tutorial.kubebuilder.io/project2/api/v1
+  path: github.com/speak2jc/default-operator/api/v1
   version: v1
   webhooks:
     conversion: true
@@ -24,7 +24,7 @@ resources:
   domain: tutorial.kubebuilder.io
   group: batch
   kind: CronJob
-  path: tutorial.kubebuilder.io/project2/api/v2
+  path: github.com/speak2jc/default-operator/api/v2
   version: v2
   webhooks:
     conversion: true

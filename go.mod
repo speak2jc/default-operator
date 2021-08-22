@@ -1,4 +1,4 @@
-module tutorial.kubebuilder.io/project2
+module github.com/speak2jc/default-operator
 
 go 1.16
 

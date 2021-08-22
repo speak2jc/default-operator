@@ -19,6 +19,7 @@ package main
 
 import (
 	"flag"
+	"github.com/speak2jc/default-operator/controllers"
 	"os"
 
 	kbatchv1 "k8s.io/api/batch/v1"
@@ -29,9 +30,8 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/healthz"
 	"sigs.k8s.io/controller-runtime/pkg/log/zap"
 
-	batchv1 "tutorial.kubebuilder.io/project2/api/v1"
-	batchv2 "tutorial.kubebuilder.io/project2/api/v2"
-	"tutorial.kubebuilder.io/project2/controllers"
+	batchv1 "github.com/speak2jc/default-operator/api/v1"
+	batchv2 "github.com/speak2jc/default-operator/api/v2"
 	//+kubebuilder:scaffold:imports
 )
 

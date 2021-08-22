@@ -30,7 +30,7 @@ import (
 	logf "sigs.k8s.io/controller-runtime/pkg/log"
 	"sigs.k8s.io/controller-runtime/pkg/log/zap"
 
-	batchv1 "tutorial.kubebuilder.io/project2/api/v1"
+	batchv1 "github.com/speak2jc/default-operator/api/v1"
 	//+kubebuilder:scaffold:imports
 )
 

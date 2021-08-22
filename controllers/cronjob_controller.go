@@ -37,7 +37,7 @@ import (
 	ctrl "sigs.k8s.io/controller-runtime"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	batch "tutorial.kubebuilder.io/project2/api/v1"
+	batch "github.com/speak2jc/default-operator/api/v1"
 )
 
 /*

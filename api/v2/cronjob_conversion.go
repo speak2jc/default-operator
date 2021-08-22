@@ -23,11 +23,9 @@ standard packages.
 */
 import (
 	"fmt"
-	"strings"
-
+	"github.com/speak2jc/default-operator/api/v1"
 	"sigs.k8s.io/controller-runtime/pkg/conversion"
-
-	"tutorial.kubebuilder.io/project2/api/v1"
+	"strings"
 )
 
 // +kubebuilder:docs-gen:collapse=Imports
